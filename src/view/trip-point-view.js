@@ -17,6 +17,7 @@ const createOffersTemplate = (offers, offersIDs, type) => {
   ).join('');
 };
 
+
 function getOffers(offers, type) {
     if (offers.find((el) => el.type === type)) {
         return offers.find((el) => el.type === type).offers;
